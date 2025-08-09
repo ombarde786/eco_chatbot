@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/chat"; // Change to Render URL after deploy
+const API_URL = "https://eco-chatbot-a8ht.onrender.com"; // Change to Render URL after deploy
 
 async function sendMessage() {
   const input = document.getElementById("user-input");
