@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eafaf1;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.chat-container {
+  width: 400px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#chat-box {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9fff9;
+}
